@@ -28,11 +28,11 @@ public class CompletableFutureDemo {
     };
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
-        //submitRunAsync(runnableTask);
-        //submitSupplyAsync(supplierTask);
-        //submitThenApply(supplierTask);
-        //submitThenAccept(supplierTask);
-        //submitThenRun(supplierTask);
+        submitRunAsync(runnableTask);
+        submitSupplyAsync(supplierTask);
+        submitThenApply(supplierTask);
+        submitThenAccept(supplierTask);
+        submitThenRun(supplierTask);
     }
 
     private static void submitRunAsync(Runnable runnableTask) throws ExecutionException, InterruptedException {
